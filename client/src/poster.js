@@ -1,13 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import ganeshji1 from './image/ganeshji1.jpg';
-import QR from './image/QR.jpg';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, TextField, Grid, Paper, Button } from '@material-ui/core';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import logo from './image/logo.jpg'
-import logo1 from './image/logo1.jpg'
-import logo3 from './image/logo3.jpg'
 import footer2 from './image/footer2.jpg'
 import './poster.css'
 

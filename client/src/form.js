@@ -1,13 +1,12 @@
-import { Button, Dropdown, Menu, Table } from "antd";
+import {Dropdown, Menu, Table } from "antd";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { TextField } from '@material-ui/core';
 import axios from 'axios';
-import toran2 from './image/toran2.jpg'
 import { useReactToPrint } from "react-to-print";
 import { Typography } from '@material-ui/core';
-
+import Button from '@mui/material/Button';
 
 //for development
  //const baseurl = "http://localhost:7000/api"
@@ -250,13 +249,13 @@ const FormExample = () => {
             </div>
             <br /><br />
 
-            <button variant="contained" type="submit">Save</button>
+            <Button variant="contained" type="submit">Save</Button>
           </form>
         </div>
         <br></br>
 
         <div>
-          <h2><u>Lists of Peoples</u></h2>
+          <h2><u>Contributors</u></h2>
           <CustomTable data={data} />
         </div>
       </div>
